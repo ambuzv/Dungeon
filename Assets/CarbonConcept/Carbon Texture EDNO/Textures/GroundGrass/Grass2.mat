@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Grass2
+  m_Shader: {fileID: 8, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 0afb144f846f4d34ebf6505ab1cea546, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: dcba7dc9f08836b42bd2754067488510, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: 8c424d98ebd2030498c198ec6ab1ca5c, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Parallax: 0.02
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
